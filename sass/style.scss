@@ -1,0 +1,80 @@
+@import "fuentes";
+@import "generales";
+@import "nav";
+@import "titulo";
+
+
+
+@media screen and (max-width:768px){
+    header{
+        position: fixed;
+        width: 100%;
+        
+        .encabezado{
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        nav{
+          flex-direction: row;
+          padding-bottom: 0;
+          padding-right: 20px;
+  
+        }
+    }
+    
+    
+    .contacto{
+        text-align: left;
+        float: none;
+        width: 50%;
+    }
+}
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 25%;
+      margin-top: 0;
+    }
+  }
+
+
+
+@media screen and (max-width:920px) and (min-width:769px){
+    .contacto{
+    
+    text-align: left;
+    width: 80%;
+    }
+
+    }
+
+
+
+    @media screen and (max-width:1024px) and (min-width:920px){
+        .contacto{
+        
+        text-align: left;
+        width: 100%;
+        }
+    
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
